@@ -9,13 +9,13 @@ public class Bob {
     private static final String YELL_WITH_QUESTION = "Calm down, I know what I'm doing!";
     private static final String QUESTION = "Sure.";
 
-//    public static void main(String[] args) {
-//        System.out.println(new Bob().hey("?"));
-//        System.out.println(new Bob().hey("ASDASD"));
-//        System.out.println(new Bob().hey("ASDADSSADA?"));
-//        System.out.println(new Bob().hey(""));
-//        System.out.println(new Bob().hey("asd."));
-//    }
+    public static void main(String[] args) {
+        System.out.println(new Bob().hey("?"));
+        System.out.println(new Bob().hey("ASDASD"));
+        System.out.println(new Bob().hey("ASDADSSADA?"));
+        System.out.println(new Bob().hey(""));
+        System.out.println(new Bob().hey("asd."));
+    }
 
     public String hey(String phrase) {
 
